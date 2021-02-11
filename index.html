@@ -3,26 +3,39 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+   <meta charset="UTF-8">
+   <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
 </head>
 
 <body>
-   <main >
-      <section>
-    <header>
-          <h1>Hello</h1>
-          <p class = 'name1'> 
-             my name is 
-          </p> 
-        </header>
 
-     <p class = 'name2'>Chen</p>
-     <footer> </footer>
-    </section>
+   <!-- <p id ='name-tag'>Hello</p> -->
+   <p class="centered">
+      <label for="">
+          Your Name:
+          <input id="name-input"> 
+      </label>
+      <button id="name-change-button">Change it</button>
+   </p>
+
+
+   <main>
+      <section>
+         <header>
+            <h1>Hello</h1>
+            <p class='name1'>
+               my name is
+            </p>
+         </header>
+
+         <p id='name-display'>Chen</p>
+         <footer> </footer>
+      </section>
    </main>
+
+   <script type="module" src="app.js"></script>
 </body>
 
 </html>
